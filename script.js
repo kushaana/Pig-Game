@@ -67,8 +67,8 @@ btnRoll.addEventListener("click", () => {
 
         // Display dice roll
         setTimeout(function() {
-            diceElem.classList.remove("shake");
             diceElem.src = `dice-${diceRoll}.png`;
+            diceElem.classList.remove("shake");
 
             // Update game using dice roll
             if(diceRoll !== 1) {
